@@ -11,3 +11,7 @@ Typescript is a statically typed language which means it uses static types. This
 
 
 Exist in either .ts or .tsx (For JSX, React, ...)
+
+
+
+To run without getting "\tsc.ps1 cannot be loaded because running scripts is disabled on this system", instead of "tsc", use "tsc.cmd". So, if you want index.js to run, use "tsc.cmd .\index.ts" command.
